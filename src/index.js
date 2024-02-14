@@ -2,7 +2,7 @@ import  express  from "express";
 import dotenv from 'dotenv'
 import connectToMongo from "./db/index.js";
 dotenv.config()
-const app=express();
+import {app} from './app.js'
 //Connecting To Database
 
 
